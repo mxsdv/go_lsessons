@@ -15,8 +15,8 @@ import (
 func main() {
 	var year int
 	animal := [12]string{"Обезьяна", "Петух", "Собака", "Свинья", "Крыса", "Бык", "Тигр", "Кролик", "Дракон", "Змея", "Лошадь", "Коза"}
-	color := [10]string{"Белый", "Белый", "Черный", "Черный", "Зеленый", "Зеленый", "Красный", "Красный", "Желтый", "Желтый"}
+	color := [5]string{"Белый", "Черный", "Зеленый", "Красный", "Желтый"}
 	fmt.Print("Введите год: ")
 	fmt.Scanln(&year)
-	fmt.Println(year, color[year%10], animal[year%12])
+	fmt.Println(year, color[(year%10)/2], animal[year%12])
 }
