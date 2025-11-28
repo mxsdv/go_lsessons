@@ -7,3 +7,9 @@
 //var readers_magazines = [...] string { 'id8', 'id2', 'id1', 'id4', 'id6', 'id7', 'id10'}
 
 //Найти пользователей кто читает и книги и газеты
+
+package main
+
+func main() {
+
+}

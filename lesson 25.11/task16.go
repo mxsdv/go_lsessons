@@ -3,6 +3,19 @@
 // Определите общие методы работы с персонажами в интерфейсе
 // Реализуйте методы нанесения повреждений, воcстанновления здоровья, супер удара.
 // Организуйте бой двух персонажей с нанесением удара и вычислением оставшегося здоровья. 
+package main
+
+type Warrior struct{
+	
+}
+
+type Wizard struct{
+
+}
+
+type Archer struct{
+	
+}
 
 type Herro struct{
 	name string
@@ -10,3 +23,4 @@ type Herro struct{
 	xp int
 	hero_class struct
 }
+
