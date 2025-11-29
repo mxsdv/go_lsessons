@@ -8,5 +8,5 @@ import (
 func main() {
 
 	fmt.Println(singlton.GetInstance())
-
+	fmt.Print("test")
 }
