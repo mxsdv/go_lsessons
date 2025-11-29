@@ -10,4 +10,5 @@ func main() {
 	fmt.Println(obj)
 	obj.ChangeStatus(true)
 	fmt.Println(obj)
+	fmt.Println("s")
 }
