@@ -1,5 +1,7 @@
 package singlton
 
+import "fmt"
+
 var instance *dbConnection
 
 type dbConnection struct {
@@ -8,6 +10,10 @@ type dbConnection struct {
 	dbName  string
 	dblogin string
 	dbPass  string
+}
+
+func init() {
+	fmt.Println("Сработал инит")
 }
 
 func GetInstance() *dbConnection {
