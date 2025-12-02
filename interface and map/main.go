@@ -3,15 +3,20 @@ package main
 import "fmt"
 
 type intPerson interface {
-	getName()
+	getName() string
 }
 
 type Person struct {
 	name string
 }
 
+func (p *Person) getName() string {
+	return p.name
+}
+
 func main() {
 	var x intPerson
-	x = 100
+	var y Person
+	x = &y
 	fmt.Println(x)
 }
